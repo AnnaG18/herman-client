@@ -6,13 +6,17 @@
     "ajv": "^6.4.0",
     "botframework-webchat": "^0.12.0",
     "directline-api": "^1.1.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "serve": "node server.js",
+    "start": "npm run build && npm run serve",
     "build": "react-scripts build",
+    "develop": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
