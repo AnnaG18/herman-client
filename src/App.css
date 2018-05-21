@@ -5,3 +5,22 @@
 .App-intro {
   font-size: large;
 }
+
+/*customize from bot*/
+.App .wc-message.wc-message-from-bot:before{
+    content: "";
+    background-size: cover;
+    background-image: url("/image/Herman.png");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: -80px;
+    box-shadow: 1px 2px 3px #333333;
+    display: block;
+}
+
+.App .wc-message-from-bot{
+    margin-left: 90px;
+
+}
